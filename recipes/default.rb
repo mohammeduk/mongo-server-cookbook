@@ -16,7 +16,7 @@ apt_repository "mongodb-org" do
 
 end
 
-package 'mongodb-org'
+package 'nginx'
 
 template "/lib/systemd/system/mongod.service" do
   source 'mongod.service.erb'
